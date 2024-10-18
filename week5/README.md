@@ -1,11 +1,11 @@
-# flexisaf api calls demo
+# flexisaf hooks demo
 
 ## Features
 
-- **GET**: Fetch and display a single post from the JSONPlaceholder API.
-- **POST**: Add new blog posts using predetermined data
-- **PUT**: Update an existing blog post by editing its title and body.
-- **DELETE**: Remove a blog post from the list.
+- **UseEffect**: Fetch and display a single post from the JSONPlaceholder API on initial page rendering.
+- **UseState**: Stores and manipulates data and rerenders page on change
+- **UseRef**: Stores and manipulates data and does not rerenders page on change.
+- **Custon Hook**: Press the button to find out.
 
 ## Installation and Setup
 
@@ -15,7 +15,7 @@
    ```
 2. Navigate to the project directory:
    ```bash
-   cd flexisaf/week4
+   cd flexisaf/week5
    ```
 3. Install the dependencies:
    ```bash

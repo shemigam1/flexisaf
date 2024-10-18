@@ -109,7 +109,7 @@ function App() {
           {/* <button onClick={() => getData('DELETE')}>DELETE</button> */}
 
           <button onClick={counter}>count {count}</button>
-          <button onClick={() => alert(name)}>What is my name</button>
+          <button onClick={() => alert(name)}>What is my name -custom hook</button>
         </div>
 
         <div className="msg">
